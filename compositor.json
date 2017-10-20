@@ -1,0 +1,97 @@
+{
+  "name": "kevnchan/chrome-newtab",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Future",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Avenir Next\", Helvetica, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "textTransform": "uppercase",
+      "letterSpacing": "0.2em"
+    },
+    "alternativeText": {
+      "textTransform": "uppercase",
+      "fontWeight": 400,
+      "letterSpacing": "0.2em",
+      "opacity": 0.75
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    },
+    "layout": {
+      "centered": true,
+      "maxWidth": 1024,
+      "bannerHeight": "80vh"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/kevnchan/chrome-newtab",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/chrome-newtab",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "chrome-newtab",
+      "subhead": "",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "chrome-newtab: ",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "kevnchan",
+          "repo": "chrome-newtab"
+        }
+      ],
+      "text": "v1.0.0"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>README</h1>\n<p>First, install <code>babel-preset-react</code> and <code>babel-preset-es2015</code> and <code>babel-cli</code>.\nThen run</p>\n<pre><span class=\"hljs-comment\">babel</span> <span class=\"hljs-comment\">script</span><span class=\"hljs-string\">.</span><span class=\"hljs-comment\">jsx</span> <span class=\"hljs-literal\">-</span><span class=\"hljs-literal\">-</span><span class=\"hljs-comment\">presets</span> <span class=\"hljs-comment\">react</span><span class=\"hljs-string\">,</span><span class=\"hljs-comment\">es2015</span> <span class=\"hljs-literal\">-</span><span class=\"hljs-literal\">-</span><span class=\"hljs-comment\">watch</span> <span class=\"hljs-literal\">-</span><span class=\"hljs-literal\">-</span><span class=\"hljs-comment\">out</span><span class=\"hljs-literal\">-</span><span class=\"hljs-comment\">file</span> <span class=\"hljs-comment\">script</span><span class=\"hljs-string\">.</span><span class=\"hljs-comment\">js</span></pre><p>For windows</p>\n<pre><span class=\"hljs-keyword\">node</span> <span class=\"hljs-title\">./node_modules</span>/babel-cli/bin/babel.js script.jsx --presets react,es2015 --watch --out-file script.js</pre>"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/kevnchan/chrome-newtab",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/kevnchan",
+          "text": "kevnchan"
+        }
+      ]
+    }
+  ]
+}
